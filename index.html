@@ -4,7 +4,10 @@
         
         <title>Blog Example</title>
         
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
     </head>
     <body>
         <div class="header">Welcome to my blog</div>
@@ -21,12 +24,19 @@
             </span></div>
             </div>
             <div class="rightpanel">
-                <h2>Links to articles: </h2> <br />
-                <h3><a href="#1">At vero eos...</a> <br /><br />
-                <a href="#2">Lorem ipsum dolor...</a> <br /><br />
-                <a href="#3">Sed ut perspiciatis...</a> <br /><br /> </h3>
+                <div class="links">
+                    <h2>Links to articles: </h2> <br />
+                    <h3><a href="#1">At vero eos...</a> <br /><br />
+                    <a href="#2">Lorem ipsum dolor...</a> <br /><br />
+                    <a href="#3">Sed ut perspiciatis...</a> <br /><br /> </h3>
+                </div>
             </div>
         </div>
         <div class="footer">Copyright 2017</div>
+        <script type="text/javascript">
+        $(window).scroll(function(){
+        $(".links").stop().animate({"marginTop": ($(window).scrollTop()) + "px"}, "fast" );
+        });
+        </script>
     </body>
 </html>
