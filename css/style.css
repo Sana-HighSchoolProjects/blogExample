@@ -3,12 +3,12 @@ body{
    height:100vw;
    margin-left:2.5vw;
    margin-right:2.5vw;
-   background-color:#A8BCA1;
+   background-color:white;
 }
 .header{
 font-size:70px;
+font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
 color:grey;
-background-color:#94AE89;
 }
 .leftpanel{
     width:70%;
@@ -16,22 +16,53 @@ background-color:#94AE89;
     float:left;
 }
 .rightpanel{
+    color:#b2aba6;
+    font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
     width:25%;
     height:100vh;
     position:fixed;
     margin-left:70%;
-    background-color: #C0DA74;
+    padding-left:5px;
+    border-left-width: 5px;
+    border-left-color: grey;
+    border-left-style: solid;
 }
 .article{
     display: table;
-    margin-top:20px;
-    height:100vh;
-    background-color:#D5FFD9;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:99vh;
+    background-color:#fff5ee;
     line-height: 20px;
     text-align: center;
     border: 2px dashed #f69c55;
+    padding-left:10px;
+    padding-right:10px;
+}
+#1{
+    height: calc(99% - 80px);
 }
 span {
   display: table-cell;
   vertical-align: middle;
+}
+
+/* unvisited link */
+a:link {
+    color: #8e9499;
+}
+
+/* visited link */
+a:visited {
+    color: #d6dfe5;
+}
+
+/* mouse over link */
+a:hover {
+    color: #474a4c;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
 }
