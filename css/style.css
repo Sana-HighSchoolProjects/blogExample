@@ -16,16 +16,14 @@ text-align:center;
 }
 .rightpanel{
     position:absolute;
-    top:0px;
-    left:70%;
+    top:10px;
+    left:71%;
     width: 25%;
     height:99%;
     overflow-y: auto;
     color:#b2aba6;
     font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
-    border-left-width: 5px;
-    border-left-color: grey;
-    border-left-style: solid;
+    border-left: 5px solid grey;
     padding-left:8px;
 }
 .article{
