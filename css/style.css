@@ -1,0 +1,29 @@
+body{
+   width:95vw;
+   height:100vw;
+   margin-left:2.5vw;
+   margin-right:2.5vw;
+}
+.header{
+font-size:70px;
+color:grey;
+background-color:#94AE89;
+}
+.leftpanel{
+    width:70%;
+    position:relative;
+    float:left;
+}
+.rightpanel{
+    margin-top:20px;
+    width:30%;
+    height:100%;
+    position:fixed;
+    margin-left:70%;
+    background-color: #C0DA74;
+}
+.article{
+    margin-top:20px;
+    height:100vh;
+    background-color:#D5FFD9;
+}
