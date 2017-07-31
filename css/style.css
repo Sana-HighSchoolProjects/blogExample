@@ -3,6 +3,7 @@ body{
    height:100vw;
    margin-left:2.5vw;
    margin-right:2.5vw;
+   background-color:#A8BCA1;
 }
 .header{
 font-size:70px;
@@ -15,15 +16,22 @@ background-color:#94AE89;
     float:left;
 }
 .rightpanel{
-    margin-top:20px;
-    width:30%;
-    height:100%;
+    width:25%;
+    height:100vh;
     position:fixed;
     margin-left:70%;
     background-color: #C0DA74;
 }
 .article{
+    display: table;
     margin-top:20px;
     height:100vh;
     background-color:#D5FFD9;
+    line-height: 20px;
+    text-align: center;
+    border: 2px dashed #f69c55;
+}
+span {
+  display: table-cell;
+  vertical-align: middle;
 }
